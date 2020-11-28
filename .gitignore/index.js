@@ -11,7 +11,7 @@ bot.on('message', message => {
   })
 
 
-bot.login('NzM3MzY3NTUxNDQwNTg0NzY0.Xx8VCw.ptvUgKjjhy7GASN2vkhaqqcDgmo')
+bot.login(process.env.TOKEN)
 
 bot.on('ready', () => {
     console.log('This bot is active!');
