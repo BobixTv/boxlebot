@@ -11,7 +11,7 @@ bot.on('message', message => {
   })
 
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.TOKEN);
 
 bot.on('ready', () => {
     console.log('This bot is active!');
