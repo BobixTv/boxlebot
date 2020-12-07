@@ -10,6 +10,9 @@ bot.on('message', message => {
     Clear.parse(message)
   })
 
+bot.on('ready', function () {
+    bot.user.setActivity("s'abonner à BobixTv.")
+})
 
 bot.login(process.env.TOKEN);
 
